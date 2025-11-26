@@ -12,14 +12,14 @@
 This project uses laravel framework to  create a light weight version of the X social network previously known as twitter. only a few of the X app features was integrated. Real time updates and algorithm used in the app was not integrated.
 
 ## Run the following commands sequentially to have the project running
--- git clone https://github.com/Deepcodepentester/twitter_clone_v2.git
--- cd  twitter_clone_v2
--- comopser install 
--- copy .env.example .env  
--- php artisan key:generate
--- php artisan migrate
--- php artisan storage:link
--- php artisan serve
+-- git clone https://github.com/Deepcodepentester/twitter_clone_v2.git  
+-- cd  twitter_clone_v2  
+-- comopser install   
+-- copy .env.example .env    
+-- php artisan key:generate  
+-- php artisan migrate  
+-- php artisan storage:link  
+-- php artisan serve  
 
 ## Key notes
 -- Make sure you have composer installed globally
